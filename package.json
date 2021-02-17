@@ -1,8 +1,18 @@
 {
   "name": "iconfont-vue3",
   "version": "1.0.0",
+  "author": "zhocean123 <youshanghaiyang@gmail.com>",
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZHocean123/iconfont-vue3.git"
+  },
+  "keywords": [
+    "vue",
+    "icons",
+    "iconfont"
   ],
   "main": "./dist/iconfont-vue3.umd.js",
   "module": "./dist/iconfont-vue3.es.js",
