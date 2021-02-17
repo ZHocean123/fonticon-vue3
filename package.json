@@ -1,6 +1,17 @@
 {
   "name": "iconfont-vue3",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/iconfont-vue3.umd.js",
+  "module": "./dist/iconfont-vue3.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/iconfont-vue3.es.js",
+      "require": "./dist/iconfont-vue3.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vuedx-typecheck . && vite build",
