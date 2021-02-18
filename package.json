@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "author": "zhocean123 <youshanghaiyang@gmail.com>",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "repository": {
     "type": "git",
